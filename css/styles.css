@@ -299,6 +299,20 @@ header {
     margin-bottom: 80px;
 }
 
+.discount-ico {
+    background-color: #F9B300;
+    color: #000;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 50%;
+    margin-top: -38px;
+}
+
 .discount-goods h2 {
     font-size: 50px;
     font-weight: 900;
@@ -306,7 +320,7 @@ header {
     margin-bottom: 50px;
 }
 
-.discount-goods p {
+.discount-goods-desc {
     text-align: right;
     font-size: 25px;
     font-weight: 500;
@@ -330,6 +344,146 @@ header {
     background: #FFF;
     box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.25);
     margin: 0 10px;
+}
+
+.discount-good-el select {
+    border-radius: 5px;
+    border: 1px solid #F9B300;
+    background: #FFF7E1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 132px;
+    height: 32px;
+    margin-bottom: 64px;
+}
+
+.discount-el-colums {
+    display: flex;
+}
+
+.discount-column-1,
+.discount-column-2 {
+    width: 162px;
+}
+
+.discount-column-1 {
+    padding-left: 38px;
+}
+
+.discount-column-1 img {
+    width: 172px;
+    height: 312px;
+}
+
+.discount-column-2 {
+    margin-top: 20px;
+    padding-right: 38px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.discount-column-2 p {
+    font-size: 18px;
+    padding: 0;
+    text-align: left;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.span-14px {
+    color: #5B5B5B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.temp-coffee-stat {
+    margin-bottom: 15px;
+}
+
+.temp-coffee-rating {
+    margin: 28px 0;
+}
+
+.good-stat-desc {
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.discount-column-1 p {
+    color: #F9B300;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 16px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.discount-good-bottom {
+    margin-left: 38px;
+}
+
+.discount-good-bottom h3 {
+    color: #222;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.discount-good-bottom-desc {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 232px;
+    margin-bottom: 8px;
+}
+
+.crossed-price {
+    margin: 0;
+    color: #C6C6C6;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: -12px;
+    text-decoration: line-through;
+}
+
+.discount-price-container {
+    display: flex;
+    align-items: center;
+}
+
+.discount-price-container p {
+    color: #222;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.discount-price-container span {
+    font-weight: 700;
+}
+
+.discount-price-container button {
+    margin-left: 52px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    width: 178px;
+    height: 48px;
+    border-radius: 5px;
+    background: #F9B300;
+    border:none;
+    cursor: pointer;
 }
 
 .discount-goods-nav-left,
@@ -362,7 +516,14 @@ header {
     padding-left: 50%;
     margin-right: 160px;
     margin-bottom: 280px;
-    background-color: #FFF7E1;
+    /* background-color: #FFF7E1; */
+}
+
+.bg-benefits {
+    position: absolute;
+    z-index: -1;
+    margin-left: -120px;
+    margin-top: -136px;
 }
 
 .benefits h2 {
@@ -397,10 +558,17 @@ header {
 }
 
 .fry-method-container {
-    background-color: #bd9100;
+    /* background-color: #bd9100; */
     /* temp */
     margin-bottom: 188px;
     margin-right: 400px;
+}
+
+.fry-method-container img {
+    position: absolute;
+    margin-left: -120px;
+    z-index: -2;
+    margin-top: -804px;
 }
 
 .fry-method-container h2 {
@@ -433,6 +601,27 @@ header {
 
 .news-container {
     margin-bottom: 80px;
+}
+
+.news-bg-wave {
+    position: absolute;
+    z-index: -1;
+    margin-left: -120px;
+    margin-top: 120px;
+}
+
+.news-bg-rect {
+    position: absolute;
+    z-index: -1;
+    margin-left: -120px;
+    margin-top: 416px;
+}
+
+.news-header img {
+    position: absolute;
+    z-index: -1;
+    margin-left: -120px;
+    margin-top: -332px;
 }
 
 .news-header {
@@ -535,6 +724,20 @@ header {
 
 .social-media-container {
     margin-bottom: 260px;
+}
+
+.sm-bg-rect {
+    position: absolute;
+    z-index: -1;
+    margin-left: -120px;
+    margin-top: 468px;
+}
+
+.sm-bg-wave {
+    position: absolute;
+    z-index: -1;
+    margin-left: -120px;
+    margin-top: 832px;
 }
 
 .social-media-desc {
